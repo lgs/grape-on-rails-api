@@ -1,7 +1,8 @@
-Brand new Rails-api micro-framework ( with Rails 4.0.0.beta1 ) + Grape endpoint 
+Rails-api micro-framework + Grape endpoint 
 ===
-( see example app deploied on Heroku [http://apirizer.herokuapp.com/v1/categories](http://apirizer.herokuapp.com/v1/categories) )
----
+
+based on Rails 4.0.0.beta1
+see working example deploied on Heroku [http://apirizer.herokuapp.com/v1/categories](http://apirizer.herokuapp.com/v1/categories) 
 
 <pre>
 lsoave@ubuntu:~$ ab -n 100 -c 100 http://apirizer.herokuapp.com/v1/categories
