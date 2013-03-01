@@ -1,4 +1,4 @@
-Apirizer::Application.routes.draw do
+GrapeOnRailsApi::Application.routes.draw do
 
   mount API => '/'
 

@@ -10,7 +10,7 @@ require "sprockets/railtie"
 # Assets should be precompiled for production (so we don't need the gems loaded then)
 Bundler.require(*Rails.groups(assets: %w(development test)))
 
-module Apirizer
+module GrapeOnRailsApi
   class Application < Rails::Application
 
     # Grape is a REST-like API micro-framework for Ruby

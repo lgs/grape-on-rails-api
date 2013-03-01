@@ -1,6 +1,6 @@
 Brand new Rails-api micro-framework ( with Rails 4.0.0.beta1 ) + Grape endpoint 
 ===
-( See [http://apirizer.herokuapp.com/v1/categories](http://apirizer.herokuapp.com/v1/categories) )
+( see example app deploied on Heroku [http://apirizer.herokuapp.com/v1/categories](http://apirizer.herokuapp.com/v1/categories) )
 ---
 
 <pre>
@@ -77,16 +77,6 @@ This document cover whatever steps are necessary to get the application up and r
   mongorestore -h localhost -d db_name -u user -p password --dbpath  ./apirizer_dev
   or
   mongoimport categories.json
-
-* How to run the test suite
-  no test currently 
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
 
 Copyright
 ---------

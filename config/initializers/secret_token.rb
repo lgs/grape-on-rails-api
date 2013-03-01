@@ -9,5 +9,5 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Apirizer::Application.config.secret_key_base = 'You can use `rake secret` to generate a secure secret key'
-~                                                                                        
+GrapeOnRailsApi::Application.config.secret_key_base = "use_rake_secret_to_generate_a_secure_secret_key"
+

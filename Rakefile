@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Apirizer::Application.load_tasks
+GrapeOnRailsApi::Application.load_tasks
