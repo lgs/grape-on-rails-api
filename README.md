@@ -1,8 +1,9 @@
-=== README
-
-== Brand new Rails-api micro-framework ( with Rails 4.0.0.beta1 ) + Grape endpoint 
+Brand new Rails-api micro-framework ( with Rails 4.0.0.beta1 ) + Grape endpoint 
+===
 ( See [http://apirizer.herokuapp.com/v1/categories](http://apirizer.herokuapp.com/v1/categories) )
+---
 
+<pre>
 lsoave@ubuntu:~$ ab -n 100 -c 100 http://apirizer.herokuapp.com/v1/categories
 This is ApacheBench, Version 2.3 
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -48,8 +49,10 @@ Percentage of the requests served within a certain time (ms)
   99%   3926
  100%   3926 (longest request)
 lsoave@ubuntu:~$  
+</pre>
 
 This document cover whatever steps are necessary to get the application up and running.
+---
 
 * Ruby version 
   ruby-2.0.0-p0
@@ -85,5 +88,18 @@ This document cover whatever steps are necessary to get the application up and r
 * ...
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Contributing to mongoid_taggable_with_context
+-----------------------------------------------
+
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+Copyright
+---------
+
+Copyright (c) 2013 Luca G. Soave. 
