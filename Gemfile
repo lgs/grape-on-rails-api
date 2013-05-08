@@ -2,7 +2,9 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
-gem 'rails',     github: 'rails/rails'
+#gem 'rails',     github: 'rails/rails'
+gem 'rails', '4.0.0.rc1'
+
 gem 'arel',      github: 'rails/arel'
 gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
 
@@ -24,5 +26,6 @@ gem 'rails-api'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'grape'
-gem 'mongoid', :git => 'https://github.com/mongoid/mongoid.git'
+gem 'mongoid', :git => 'https://github.com/mongoid/mongoid.git'#, :branch => '3.1.0-stable'
+
 
