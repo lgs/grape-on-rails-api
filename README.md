@@ -1,5 +1,6 @@
 Rails-api micro-framework + Grape endpoint 
 ===
+{<img src="https://codeclimate.com/github/lgs/grape-on-rails-api.png" />}[https://codeclimate.com/github/lgs/grape-on-rails-api]
 
 based on Rails 4.0.0.beta1
 see working example deploied on Heroku [http://apirizer.herokuapp.com/v1/categories](http://apirizer.herokuapp.com/v1/categories) 
